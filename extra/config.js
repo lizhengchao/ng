@@ -39,7 +39,9 @@ var GLOBAL_CONFIG = {
 
     contactPhone: '0571-88270588',
 
-    NetWorkError: '网络不稳定或无法连接'
+    NetWorkError: '网络不稳定或无法连接',
+
+    Host: '218.108.50.4'
 };
 
 //微信企业号特有的全局配置，在Launch.js中初始化
@@ -48,7 +50,7 @@ var WeChat_GLOBAL_CONFIG = {
 //    productAdr: 'http://218.108.53.100:8081',
 //    productPort: '8081',
 //    netcallAdr: 'http://218.108.53.100:7070',
-    weChatServeAdr: 'http://218.108.53.100:81/WeChatCompanyServe/Redirect/jsonResult', //微信服务地址
+
 //    //            weChatServeAdr: 'http://localhost:15659/Redirect/jsonResult',
 //    userName: '',
 //    NGCorpID: ''
@@ -57,6 +59,8 @@ var WeChat_GLOBAL_CONFIG = {
     productPort: '8081',
     netcallAdr: '',
     //weChatServeAdr: "/Redirect/jsonResult", //微信服务地址
+    //weChatServeAdr: 'http://218.108.53.100:81/WeChatCompanyServe/Redirect/jsonResult', //微信服务地址
+    weChatServeAdr: 'http://101.37.31.231:81/Redirect/jsonResult', //微信服务地址
     userName: '',
     NGCorpID: '',
     requestType: ''

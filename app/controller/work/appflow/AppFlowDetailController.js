@@ -379,7 +379,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                             attachname: data.attachname
                         };
                         if (view.target.downloadurl) {
-                            NG.downLoadFile(view.target.downloadurl, data.arctable + "_" + data.arccode, data.attachname, data.attachsize);
+                            window.open(view.target.downloadurl.replace('127.0.0.1', GLOBAL_CONFIG.Host));
+                            //NG.downLoadFile(view.target.downloadurl, data.arctable + "_" + data.arccode, data.attachname, data.attachsize);
                             return;
                         }
                         NG.setWaiting(true, "正在获取附件地址");
@@ -399,7 +400,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                                         asrcode: data.arccode,
                                         attachname: data.attachname
                                     });
-                                    NG.downLoadFile(resp.downloadurl, data.arctable + "_" + data.arccode, data.attachname, data.attachsize);
+                                    window.open(resp.downloadurl.replace('127.0.0.1', GLOBAL_CONFIG.Host));
+                                    //NG.downLoadFile(resp.downloadurl, data.arctable + "_" + data.arccode, data.attachname, data.attachsize);
                                 }
                                 else {
                                     NG.alert("无法获取附件地址", 1500);
@@ -2403,8 +2405,12 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
     getAttachDownloadUrl: function (config) {
         var me = this;
         NG.setWaiting(true, "正在获取附件地址..");
-        NG.WeChatRequest({
-            url: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/GetArchiveAttachment" + config.fileUrl,
+        Ext.Ajax.request({
+            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+            params: {
+                requestType: 'get',
+                requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/GetArchiveAttachment" + config.fileUrl
+            },
             method: 'GET',
             success: function(response, opts) {
                 var resp = NG.decodeJson(response.responseText);
@@ -2526,20 +2532,20 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
         }
         else {
             if (target.downloadurl) {
-                NG.downLoadFile(target.downloadurl, record.data.arctable + "_" + record.data.arccode, record.data.attachname, record.data.attachsize);
+                window.open(target.downloadurl.replace('127.0.0.1', GLOBAL_CONFIG.Host));
+                //NG.downLoadFile(target.downloadurl, record.data.arctable + "_" + record.data.arccode, record.data.attachname, record.data.attachsize);
                 return;
             }
             NG.setWaiting(true, "正在获取附件地址");
-            NG.WeChatRequest({
-                url: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get",
+            Ext.apply(parms, {requestType: 'post', requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get"})
+            Ext.Ajax.request({
+                url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
                 method: 'POST',
                 params: parms,
                 success: function (response, opts) {
                     var resp = Ext.JSON.decode(response.responseText);
 
                     NG.setWaiting(false);
-                    window.open($(target).find('a')[0]);
-                    return;
                     if (resp.downloadurl) {
                         target.downloadurl = resp.downloadurl;
                         me.downloadurls.push({
@@ -2549,7 +2555,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                             asrcode: record.data.arccode,
                             attachname: record.data.attachname
                         });
-                        NG.downLoadFile(resp.downloadurl, record.data.arctable + "_" + record.data.arccode, record.data.attachname, record.data.attachsize);
+                        window.open(resp.downloadurl.replace('127.0.0.1', GLOBAL_CONFIG.Host));
+                        //NG.downLoadFile(resp.downloadurl, record.data.arctable + "_" + record.data.arccode, record.data.attachname, record.data.attachsize);
                     }
                     else {
                         NG.alert("无法获取附件地址", 1500);

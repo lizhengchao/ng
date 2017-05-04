@@ -88,8 +88,10 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
 
         var store = list.getStore();
         store.removeAll();
-        store.getProxy().setUrl(NG.getProductLoginInfo().productAdr + "/rest/api/workflow/TaskInstanceList/Get");
+        store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
         store.setParams({
+            requestType: 'get',
+            requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/TaskInstanceList/Get",
             method: 'GetPendingTaskInstances',
             logid: logid
         });
@@ -403,8 +405,9 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
     /*审批流请求*/
     AFRequst: function (funcname, parms, callback) {
         var me = this;
-        NG.WeChatRequest({
-            url: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get",
+        Ext.apply(parms, {requestType: 'post', requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get"})
+        Ext.Ajax.request({
+            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
             method: 'POST',
             params: parms,
             success: function (response, opts) {

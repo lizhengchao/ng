@@ -19,6 +19,7 @@
         GLOBAL_CONFIG.GetColleaguesServer = "http://" + host + ":8081/rest/uiauthentication";
         GLOBAL_CONFIG.IP = "http://" + host + ":7070";
         GLOBAL_CONFIG.NetCallApi = "http://" + host + ":9090";
+        GLOBAL_CONFIG.Host = host;
     }
     var requestType = getQueryString('requestType');
     if(requestType){

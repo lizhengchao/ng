@@ -1839,10 +1839,12 @@
                     loginFunc = function () {
                      /*   logid = '150157';
                         NG.productLoginID = logid;*/
-                        NG.WeChatRequest({
-                            url: productAdr + "/rest/api/kernelsession",
+                        Ext.Ajax.request({
+                            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
                             method: 'GET',
                             params: {
+                                requestType: 'get',
+                                requestAds: productAdr + "/rest/api/kernelsession",
                                 loginid: logid,
                                 isapp: "1"
                             },
@@ -2470,34 +2472,6 @@
 
         getVideoQuality: function () {
             return navigator.connection.type == Connection.WIFI ? 1 : (NG.GLOBAL_PARAMS.videoQuality == 1 ? 1 : 2);
-        },
-
-        //WeChatRequest: function(config){
-        //    Ext.Ajax.request({
-        //        url: WeChat_GLOBAL_CONFIG.weChatServeAdr + 'requestType=' + config.method + '&requestAds'+ config.url,
-        //        params:config.params,
-        //        method: config.method,
-        //        success: function(){
-        //            config.success && config.success();
-        //        },
-        //        failure: function(){
-        //            config.failure && config.failure();
-        //        }
-        //    });
-        //},
-
-        WeChatRequest: function(config){
-            Ext.Ajax.request({
-                url: config.url,
-                params:config.params,
-                method: config.method,
-                success: function(response){
-                    config.success && config.success(response);
-                },
-                failure: function(response){
-                    config.failure && config.failure(response);
-                }
-            });
         },
 
         topChatData:{}

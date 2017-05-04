@@ -48,7 +48,6 @@ Ext.define('MyApp.controller.work.pub.OperatorController', {
             titleBar = this.getTitleBar();
 
         this.isEmp = view.getIsEmp();
-        debugger;
         if(this.isEmp) {
             var sqlstr = "select cno code,cname name from hr_epm_main where empstatus in(select ccode from hr_epm_status_property where isstatus in('01','02'))";
             store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
