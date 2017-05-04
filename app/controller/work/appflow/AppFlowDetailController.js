@@ -1408,7 +1408,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                                                 nodeUserStore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
                                                 nodeUserStore.setParams({
                                                     requestType: 'get',
-                                                    requestAds: WeChat_GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get'
+                                                    requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get'
                                                 });
                                                 nodeUserStore.setParams(parms);
                                                 me.getApplication().getController("work.appflow.OperatorController").nodeid = btn.config.nodeid;

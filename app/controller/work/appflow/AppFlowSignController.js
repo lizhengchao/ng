@@ -84,7 +84,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowSignController', {
             store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
             store.setParams({
                 requestType: 'get',
-                requestAds: WeChat_GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
+                requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
                 method: 'GetAllUser'
             });
             store.removeAll();

@@ -41,23 +41,16 @@ var GLOBAL_CONFIG = {
 
     NetWorkError: '网络不稳定或无法连接',
 
-    Host: '218.108.50.4'
+    Host: '218.108.50.4',
+
+    enterprise: '710332',
+
+    netcallAdr: 'http://218.108.50.4:9090'
 };
 
 //微信企业号特有的全局配置，在Launch.js中初始化
 var WeChat_GLOBAL_CONFIG = {
-//    enterprise: '710332',
-//    productAdr: 'http://218.108.53.100:8081',
-//    productPort: '8081',
-//    netcallAdr: 'http://218.108.53.100:7070',
-
-//    //            weChatServeAdr: 'http://localhost:15659/Redirect/jsonResult',
-//    userName: '',
-//    NGCorpID: ''
-    enterprise: '',
-    productAdr: '',
-    productPort: '8081',
-    netcallAdr: '',
+//    NGCorpID: ',
     //weChatServeAdr: "/Redirect/jsonResult", //微信服务地址
     //weChatServeAdr: 'http://218.108.53.100:81/WeChatCompanyServe/Redirect/jsonResult', //微信服务地址
     weChatServeAdr: 'http://101.37.31.231:81/Redirect/jsonResult', //微信服务地址

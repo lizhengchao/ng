@@ -55,25 +55,28 @@ Ext.application({
         var me = this;
         NG.application = me;
 
-        switch(WeChat_GLOBAL_CONFIG.requestType){ //根据不同的请求类型打开不同的页面
-            case 'af':
-                NG.initControllers(this, function(){
-                    var appFlowList = Ext.create('MyApp.view.work.appflow.AppFlowListView');
-                    Ext.Viewport.add(appFlowList);
-                    Ext.Viewport.setActiveItem(appFlowList);
-                }, 'MyApp.controller.work.appflow.AppFlowController');
-                break;
-            case 'nc':
-                NG.initControllers(this, function(){
-                    var netcallView = Ext.create('MyApp.view.work.netcall.NetCallView');
-                    Ext.Viewport.add(netcallView);
-                    ExtX.Viewport.setActiveItem(netcallView);
-                },'MyApp.controller.work.netcall.NetCallController');
-                break;
-            default:
-                break;
-        }
         me.addLocalStorage();
+
+        NG.productLogin(function () {
+            switch (WeChat_GLOBAL_CONFIG.requestType) { //根据不同的请求类型打开不同的页面
+                case 'af':
+                    NG.initControllers(this, function () {
+                        var appFlowList = Ext.create('MyApp.view.work.appflow.AppFlowListView');
+                        Ext.Viewport.add(appFlowList);
+                        Ext.Viewport.setActiveItem(appFlowList);
+                    }, 'MyApp.controller.work.appflow.AppFlowController');
+                    break;
+                case 'nc':
+                    NG.initControllers(this, function () {
+                        var netcallView = Ext.create('MyApp.view.work.netcall.NetCallView');
+                        Ext.Viewport.add(netcallView);
+                        ExtX.Viewport.setActiveItem(netcallView);
+                    }, 'MyApp.controller.work.netcall.NetCallController');
+                    break;
+                default:
+                    break;
+            }
+        })
     },
 
     //模仿app把登录信息插入LocalStorage中
@@ -83,7 +86,7 @@ Ext.application({
             localData;
 
         localData = {
-            enterprise: WeChat_GLOBAL_CONFIG.enterprise,
+            enterprise: GLOBAL_CONFIG.enterprise,
             userName: WeChat_GLOBAL_CONFIG.userName,
 //                userPassWord: passwordValue,
             loginDate: new Date(),
@@ -94,8 +97,8 @@ Ext.application({
 //                enterpriseId: enInfo.enterpriseId,
 //                enterpriseName: enInfo.enterpriseName,
 //                innerNetcallAdr: enInfo.innerNetcallAdr.split('@@')[0],
-            netcallAdr: WeChat_GLOBAL_CONFIG.netcallAdr,
-            productAdr: WeChat_GLOBAL_CONFIG.productAdr //"http://218.108.50.4:8081"
+            netcallAdr: GLOBAL_CONFIG.netcallAdr,
+            productAdr: GLOBAL_CONFIG.productAdr //"http://218.108.50.4:8081"
         };
         userInfo = Ext.create('MyApp.model.main.LocalModel', Ext.apply({ id: 'userInfo' }, localData));
         userInfo.save();

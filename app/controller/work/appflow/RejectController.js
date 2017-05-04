@@ -350,7 +350,7 @@ Ext.define('MyApp.controller.work.appflow.RejectController', {
             cstore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
             cstore.setParams({
                 requestType: 'get',
-                requestAds: WeChat_GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
+                requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
                 method: 'GetAllUser'
             });
             cstore.removeAll();
@@ -486,7 +486,7 @@ Ext.define('MyApp.controller.work.appflow.RejectController', {
                                         cstore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
                                         cstore.setParams({
                                             requestType: 'get',
-                                            requestAds: WeChat_GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
+                                            requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
                                             logid: me.getRejectPanelView().config.logid,
                                             method: 'GetNodeUsers',
                                             flowType: flowtype,

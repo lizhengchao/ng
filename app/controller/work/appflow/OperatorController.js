@@ -162,7 +162,7 @@ Ext.define('MyApp.controller.work.appflow.OperatorController', {
             userStore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
             userStore.setParams({
                 requestType: 'get',
-                requestAds: WeChat_GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
+                requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
                 method: 'GetAllUser'
             });
             userStore.removeAll();

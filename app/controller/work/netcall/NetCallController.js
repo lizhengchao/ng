@@ -471,13 +471,17 @@ Ext.define('MyApp.controller.work.netcall.NetCallController', {
      */
     NFCApi: function (config) {
         Ext.applyIf(config, {
-            url: NG.getProductLoginInfo().productAdr + "/rest/api/NFCApp/" + (config.action || ''),
+            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
             method: 'POST', //默认为POST，可以为空
             autoWaiting: false, // 自动添加和取消loading样式，可以为字符串
             params: {},  //参数
             success: Ext.emptyFn, //成功回调
             failure: Ext.emptyFn //失败回调
         });
+        Ext.apply(config.params, {
+            requestType: config.method.toLowerCase(),
+            requestAds:  NG.getProductLoginInfo().productAdr + "/rest/api/NFCApp/" + (config.action || '')
+        })
         if (config.autoWaiting) {
             NG.setWaiting(true, config.autoWaiting === true ? null : config.autoWaiting);
         }

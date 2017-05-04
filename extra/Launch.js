@@ -7,13 +7,12 @@
     }
     var enterprise = getQueryString("NGCorpId");
     if(enterprise) {
-        WeChat_GLOBAL_CONFIG.enterprise = enterprise;
+        GLOBAL_CONFIG.enterprise = enterprise;
         WeChat_GLOBAL_CONFIG.NGCorpID = enterprise;
     }
     var host = getQueryString("host");
     if(host){
-        WeChat_GLOBAL_CONFIG.productAdr = "http://" + host + ":8081";
-        WeChat_GLOBAL_CONFIG.netcallAdr = "http://" + host + ":7070";
+        GLOBAL_CONFIG.netcallAdr = "http://" + host + ":7070";
         GLOBAL_CONFIG.productAdr = "http://" + host + ":8081";
         GLOBAL_CONFIG.FileServer = "http://" + host + ":8096/NCFileServer/files/";
         GLOBAL_CONFIG.GetColleaguesServer = "http://" + host + ":8081/rest/uiauthentication";
