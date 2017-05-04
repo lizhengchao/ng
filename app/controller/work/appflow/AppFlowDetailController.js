@@ -2,8 +2,9 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
     extend: 'Ext.app.Controller',
     requires: ['MyApp.controller.work.appflow.RejectController','MyApp.controller.work.appflow.AppFlowSignController','MyApp.controller.work.appflow.OperatorController', 'MyApp.controller.work.pub.OperatorController'],
     config: {
-        views: ['work.appflow.AppFlowSearchField','work.appflow.AppFlowDetailView', 'work.appflow.TaskPanelView', 'work.appflow.AttachPanelView', 'work.appflow.FormPanelView', 'work.appflow.StampListView','work.appflow.RejectPanelView'],
-        stores: [ 'work.appflow.RecentContactsStore', 'work.appflow.NextNodeTitleStore', 'work.appflow.StampListStore','work.appflow.FlowHistoryStore', 'work.appflow.NextNodeStore'],
+        views: ['work.appflow.AppFlowSearchField','work.appflow.AppFlowDetailView', 'work.appflow.TaskPanelView', 'work.appflow.AttachPanelView',
+            'work.appflow.FormPanelView', 'work.appflow.StampListView','work.appflow.RejectPanelView', 'work.appflow.OperatorSelectView'],
+        stores: [ 'work.appflow.RecentContactsStore', 'work.appflow.NextNodeTitleStore', 'work.appflow.StampListStore','work.appflow.FlowHistoryStore', 'work.appflow.NextNodeStore', 'work.appflow.NodeUserStore'],
         models: ['work.RecentContactsModel'],
         refs: {
             appFlowListView: 'appFlowListView',
