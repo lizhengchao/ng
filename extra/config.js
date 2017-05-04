@@ -48,7 +48,7 @@ var WeChat_GLOBAL_CONFIG = {
 //    productAdr: 'http://218.108.53.100:8081',
 //    productPort: '8081',
 //    netcallAdr: 'http://218.108.53.100:7070',
-//    weChatServeAdr: 'http://218.108.53.100:81/WeChatCompanyServe/Redirect/jsonResult', //微信服务地址
+    weChatServeAdr: 'http://218.108.53.100:81/WeChatCompanyServe/Redirect/jsonResult', //微信服务地址
 //    //            weChatServeAdr: 'http://localhost:15659/Redirect/jsonResult',
 //    userName: '',
 //    NGCorpID: ''
@@ -56,9 +56,10 @@ var WeChat_GLOBAL_CONFIG = {
     productAdr: '',
     productPort: '8081',
     netcallAdr: '',
-    weChatServeAdr: "/Redirect/jsonResult", //微信服务地址
+    //weChatServeAdr: "/Redirect/jsonResult", //微信服务地址
     userName: '',
-    NGCorpID: ''
+    NGCorpID: '',
+    requestType: ''
 };
 
 /*

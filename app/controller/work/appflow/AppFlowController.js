@@ -7,6 +7,7 @@
  */
 Ext.define('MyApp.controller.work.appflow.AppFlowController', {
     extend: 'Ext.app.Controller',
+    requires: ['MyApp.view.work.appflow.AppFlowListView'],
     config: {
         tpl1: '<div class="nowrap font15" style="margin-bottom: 8px; color: #000;">{taskdesc}' + '</div>' +
             '<table width="100%" class="font13" style="color: #AAA9A9;table-layout: fixed; height: 16px;" border=0><tr valign="bottom">' + '<td class="nowrap typemark" style="width: 100px;">{bizname}</td>' + '<td align="center" style="width:100%"><div  style="text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color: #3993db;"><label class="sendNode" imgtype="nextNode">{initiator_name}</label></div></td>' + '<td align="right" style="width: 100px;"><div class="nowrap time" style="display: inline-block;vertical-align: bottom; max-width: 100px; color: #000;">{sduetime}</div></td>' + '</tr></table>',
@@ -71,12 +72,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
             list = me.getAppFlowList();
 
         me.getSearchBtn().setProxy({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+            url: baseurl + "/rest/api/workflow/TaskInstanceList/Get",
             type: 'ajax',
-            queryparams: {
-                requestType: 'post',
-                requestAds: baseurl + "/rest/api/workflow/TaskInstanceList/Get"
-            },
             params: {
                 method: 'GetPendingTaskInstances',
                 logid: logid
@@ -91,10 +88,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
 
         var store = list.getStore();
         store.removeAll();
-        store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+        store.getProxy().setUrl(NG.getProductLoginInfo().productAdr + "/rest/api/workflow/TaskInstanceList/Get");
         store.setParams({
-            requestType: 'get',
-            requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/TaskInstanceList/Get",
             method: 'GetPendingTaskInstances',
             logid: logid
         });
@@ -408,8 +403,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
     /*审批流请求*/
     AFRequst: function (funcname, parms, callback) {
         var me = this;
-        Ext.Ajax.request({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get",
+        NG.WeChatRequest({
+            url: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get",
             method: 'POST',
             params: parms,
             success: function (response, opts) {

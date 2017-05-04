@@ -18,7 +18,7 @@ Ext.application({
     ],
 
     controllers: [
-        'work.appflow.AppFlowController'
+
     ],
 
     models: [
@@ -55,13 +55,25 @@ Ext.application({
         var me = this;
         NG.application = me;
 
-        // Destroy the #appLoadingIndicator element
-        Ext.fly('appLoadingIndicator').destroy();
-
+        switch(WeChat_GLOBAL_CONFIG.requestType){ //根据不同的请求类型打开不同的页面
+            case 'af':
+                NG.initControllers(this, function(){
+                    var appFlowList = Ext.create('MyApp.view.work.appflow.AppFlowListView');
+                    Ext.Viewport.add(appFlowList);
+                    Ext.Viewport.setActiveItem(appFlowList);
+                }, 'MyApp.controller.work.appflow.AppFlowController');
+                break;
+            case 'nc':
+                NG.initControllers(this, function(){
+                    var netcallView = Ext.create('MyApp.view.work.netcall.NetCallView');
+                    Ext.Viewport.add(netcallView);
+                    ExtX.Viewport.setActiveItem(netcallView);
+                },'MyApp.controller.work.netcall.NetCallController');
+                break;
+            default:
+                break;
+        }
         me.addLocalStorage();
-
-        // Initialize the main view
-        Ext.Viewport.add(Ext.create('MyApp.view.work.appflow.AppFlowListView'));
     },
 
     //模仿app把登录信息插入LocalStorage中

@@ -20,6 +20,11 @@
         GLOBAL_CONFIG.IP = "http://" + host + ":7070";
         GLOBAL_CONFIG.NetCallApi = "http://" + host + ":9090";
     }
+    var requestType = getQueryString('requestType');
+    if(requestType){
+        WeChat_GLOBAL_CONFIG.requestType = requestType;
+    }
+
     function getQueryString(name) {
         var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
         var r = window.location.search.substr(1).match(reg);

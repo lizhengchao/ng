@@ -53,30 +53,30 @@
     "x-bootstrap": true
     },
     {
+      "path": "extra/config.js",
+      "bundle": false,
+      "update": "full"
+    },
+    {
+      "path": "extra/ux/NG.js",
+      "bundle": false,
+      "update": "full"
+    },
+    {
+      "path": "extra/Launch.js",
+      "bundle": false,
+      "update": "full"
+    },
+    {
     "path": "app.js",
     "bundle": true,  /* Indicates that all class dependencies are concatenated into this file when build */
     "update": "delta"
-    },{
-    "path": "extra/ux/NG.js",
-    "bundle": false,
-    "update": "full"
     },
     {
     "path": "extra/ux/NGComponent.js",
     "bundle": false,
     "update": "full"
-    },
-    {
-    "path": "extra/config.js",
-    "bundle": false,
-    "update": "full"
-    },
-    {
-    "path": "extra/Launch.js",
-    "bundle": false,
-    "update": "full"
     }
-
     ],
 
     /**

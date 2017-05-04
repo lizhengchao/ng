@@ -4,54 +4,7 @@
     <list default="true" id="b359061c-e891-48fa-be1f-ddce97f8df06" name="Default" comment="" />
     <ignored path="WeChatCompanyJS.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/*.regexp" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1478488051333" ignored="false" />
-    <file path="$PROJECT_DIR$/touch/src/device/camera/Simulator.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474177330414" ignored="false" />
-    <file path="/AppFlowListView.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474178156982" ignored="false" />
-    <file path="/app.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477978699407" ignored="false" />
-    <file path="/AppFlowListStore.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474178200867" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/extra/ux/NG.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474179082555" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app/controller/work/appflow/AppFlowController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474440099158" ignored="false" />
-    <file path="/AppFlowController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477983175344" ignored="false" />
-    <file path="/index.html" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477972043870" ignored="false" />
-    <file path="/NG.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477983651169" ignored="false" />
-    <file path="/TaskPanelView.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474184729248" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app/controller/work/appflow/RejectController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474188468011" ignored="false" />
-    <file path="/RejectController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474188444979" ignored="false" />
-    <file path="/AppFlowDetailController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477288043442" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app/controller/work/appflow/AppFlowDetailController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474197070701" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474196850408" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app/controller/session/ChatRoomController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474191221205" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app/model/main/ProductLoginModel.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474263720483" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/app/controller/main/LoginController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474264482834" ignored="false" />
-    <file path="/LoginController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474264482834" ignored="false" />
-    <file path="/NGComponent.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474423812190" ignored="false" />
-    <file path="E:/appmobile_i6p/netcall_mobile/extra/ux/NGComponent.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474423983037" ignored="false" />
-    <file path="/OperatorView.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1474457572816" ignored="false" />
-    <file path="/OperatorController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477980550927" ignored="false" />
-    <file path="/SameLevelTaxController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1475128657515" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../工作文档/内部税局/NGMobileOffice/netcall_mobile/app/controller/work/oa/taxbureau/SameLevelTaxController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1475128795264" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../工作文档/内部税局/NGMobileOffice/netcall_mobile/app/view/work/oa/taxbureau/SameLevelTaxView.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477375983787" ignored="false" />
-    <file path="/AppFlowSignController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477275919731" ignored="false" />
-    <file path="/AppFlowSearchField.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477276173465" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../工作文档/内部税局/NGMobileOffice/netcall_mobile/app/view/work/appflow/OperatorSelectView.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477278075389" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../工作文档/内部税局/NGMobileOffice/netcall_mobile/app/controller/work/appflow/AppFlowDetailController.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477376251841" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../learning document/html+js+css/www/o.html" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477308792734" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../learning document/html+js+css/www/ossupload.html" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477375418465" ignored="false" />
-    <file path="/ossupload.html" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477372618330" ignored="false" />
-    <file path="/jquery.uploadify.v2.1.0.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477312670832" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../learning document/html+js+css/www/js/extra/jquery.uploadify-v2.1.0/jquery.uploadify.v2.1.0.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477312672492" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../learning document/html+js+css/www/js/extra/sha1.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477362159410" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../learning document/html+js+css/www/js/extra/base64.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477362334742" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../learning document/html+js+css/www/js/extra/jquery-1.7.1.min.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477372864404" ignored="false" />
-    <file path="/SameLevelTaxView.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477375983787" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../工作文档/内部税局/NGMobileOffice/netcall_mobile/index.html" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477885391049" ignored="false" />
-    <file path="/app.json" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1478140484803" ignored="false" />
-    <file path="/config.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1477978162430" ignored="false" />
-    <file path="/Launch.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1478486052737" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../../../工作文档/内部税局/NGMobileOffice/netcall_mobile/app.json" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1478140484803" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../../../工作文档/小程序审批流/小程序审批流/app.json" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1480578110738" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../../../工作文档/小程序审批流/小程序审批流/pages/appflow/appflowlist/appflowlist.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1480578496780" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../../../../../../工作文档/小程序审批流/小程序审批流/extra/NG.js" changelist="b359061c-e891-48fa-be1f-ddce97f8df06" time="1480642450970" ignored="false" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,145 +24,115 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="config.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/extra/config.js">
+      <file leaf-file-name="AppFlowDetailController.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowDetailController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="41" selection-start="1459" selection-end="1469" vertical-scroll-proportion="0.16715117">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NGComponent.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra/ux/NGComponent.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="287" column="13" selection-start="10531" selection-end="10531" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="1.4785992" vertical-offset="36499" max-vertical-offset="44669">
+              <caret line="2540" column="56" selection-start-line="2540" selection-start-column="56" selection-end-line="2540" selection-end-column="56" />
               <folding>
-                <marker date="1477964582001" expanded="false" signature="35614:35646" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="35675:35707" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="44946:44975" placeholder="..." />
-                <marker date="1477964582001" expanded="true" signature="44976:45322" placeholder="..." />
-                <marker date="1477964582001" expanded="true" signature="45038:45316" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45081:45191" placeholder="..." />
-                <marker date="1477964582001" expanded="true" signature="45192:45316" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45232:45288" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45335:45433" placeholder="..." />
-                <marker date="1477964582001" expanded="true" signature="45434:45787" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45447:45520" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45566:45737" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45815:45879" placeholder="..." />
-                <marker date="1477964582001" expanded="true" signature="45880:46456" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="45920:45975" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="46003:46113" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="46217:46274" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="46393:46448" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="58886:59027" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="59068:59212" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="77751:77789" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="94110:94182" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="94592:94664" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="112245:112351" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="119926:120017" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="120060:120081" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="122693:122729" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="124390:124462" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="124492:124517" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="124701:124874" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="137288:137429" placeholder="..." />
-                <marker date="1477964582001" expanded="false" signature="137470:137614" placeholder="..." />
+                <element signature="e#16460#24940#0" expanded="false" />
+                <element signature="e#25013#27740#0" expanded="false" />
+                <element signature="e#27799#28964#0" expanded="false" />
+                <element signature="e#29032#30061#0" expanded="false" />
+                <element signature="e#30159#35951#0" expanded="false" />
+                <element signature="e#36019#43209#0" expanded="false" />
+                <element signature="e#46232#46995#0" expanded="false" />
+                <element signature="e#47078#47728#0" expanded="false" />
+                <marker date="1493871981111" expanded="true" signature="17131:17166" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="17242:17333" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="21592:21627" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="21707:21798" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="22312:22384" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="22426:22538" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="22611:22833" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="30786:30860" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="49847:50049" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="57777:57789" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="57824:57869" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="76331:76366" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="76439:76592" placeholder="..." />
+                <marker date="1493871981111" expanded="true" signature="84831:84969" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NG.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="loodword.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/loodword.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="380">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NG.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/extra/ux/NG.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1917" column="55" selection-start="89350" selection-end="89367" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="8353" max-vertical-offset="44346">
+              <caret line="452" column="8" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
               <folding>
-                <marker date="1477983655170" expanded="false" signature="17171:17244" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="17258:17398" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="26041:26109" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="26172:26314" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="26492:26576" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="26662:26761" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="26797:26871" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="43066:43073" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="43429:43485" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="43553:43566" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="50387:50534" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="51103:51148" placeholder="..." />
-                <marker date="1477983655170" expanded="false" signature="61419:61425" placeholder="..." />
-                <marker date="1477983655170" expanded="true" signature="62429:62459" placeholder="{...}" />
-                <marker date="1477983655170" expanded="true" signature="63003:63018" placeholder="{...}" />
-                <marker date="1477983655170" expanded="true" signature="63105:63137" placeholder="{...}" />
-                <marker date="1477983655170" expanded="true" signature="64370:64419" placeholder="{...}" />
-                <marker date="1477983655170" expanded="true" signature="64506:64558" placeholder="{...}" />
+                <element signature="e#102842#107190#0" expanded="false" />
+                <element signature="e#110447#112453#0" expanded="false" />
+                <element signature="e#112499#113457#0" expanded="false" />
+                <element signature="e#113598#114170#0" expanded="false" />
+                <marker date="1493866848563" expanded="true" signature="17171:17244" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="17258:17398" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="26172:26314" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="26492:26576" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="26662:26761" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="26797:26871" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="43429:43485" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="50387:50534" placeholder="..." />
+                <marker date="1493866848563" expanded="true" signature="51103:51148" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppFlowController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="411" column="46" selection-start="16859" selection-end="16859" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1477986826321" expanded="false" signature="316:348" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="430:479" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="550:563" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="610:620" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="635:708" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="818:831" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="865:941" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1027:1066" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1119:1131" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1178:1240" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1331:1380" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1435:1448" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1495:1505" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1555:1628" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="1741:1754" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="13861:13924" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="14000:14044" placeholder="..." />
-                <marker date="1477986826321" expanded="false" signature="16259:16295" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Launch.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extra/Launch.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="62" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="6" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1341" max-vertical-offset="4028">
+              <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LocalStore.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/store/main/LocalStore.js">
+      <file leaf-file-name="jQuery.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/extra/jQuery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="29" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="167618">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="19" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="361">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AttachPanelView.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/view/work/appflow/AttachPanelView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="665">
+              <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+              <folding>
+                <marker date="1493869875723" expanded="true" signature="721:748" placeholder="..." />
+                <marker date="1493869875723" expanded="true" signature="801:820" placeholder="..." />
+                <marker date="1493869875723" expanded="true" signature="834:972" placeholder="..." />
+                <marker date="1493869875723" expanded="true" signature="1016:1112" placeholder="..." />
+                <marker date="1493869875723" expanded="true" signature="1218:1233" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -222,32 +145,36 @@
     </FindUsagesManager>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/view/work/appflow/AppFlowSearchField.js" />
-        <option value="$PROJECT_DIR$/app/view/work/appflow/TaskPanelView.js" />
-        <option value="$PROJECT_DIR$/../../Scripts/Main/jweixin-1.1.0.js" />
-        <option value="$PROJECT_DIR$/bootstrap.json" />
+        <option value="$PROJECT_DIR$/extra/Launch.js" />
         <option value="$PROJECT_DIR$/app.json" />
+        <option value="$PROJECT_DIR$/app/controller/work/appflow/AppFlowController.js" />
+        <option value="$PROJECT_DIR$/app/view/work/netcall/NetCallDetailView.js" />
+        <option value="$PROJECT_DIR$/app/view/work/netcall/NetCallAddView.js" />
+        <option value="$PROJECT_DIR$/app/controller/work/netcall/NetCallDetailController.js" />
+        <option value="$PROJECT_DIR$/app/store/work/netcall/NetCallListStore.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/app/view/work/netcall/NetCallView.js" />
+        <option value="$PROJECT_DIR$/app/controller/work/netcall/NetCallController.js" />
+        <option value="$PROJECT_DIR$/extra/config.js" />
+        <option value="$PROJECT_DIR$/extra/ux/NG.js" />
+        <option value="$PROJECT_DIR$/app/view/work/appflow/TaskPanelView.js" />
+        <option value="$PROJECT_DIR$/app/view/work/appflow/AttachPanelView.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/controller/work/appflow/AppFlowDetailController.js" />
-        <option value="$PROJECT_DIR$/app/controller/work/appflow/AppFlowSignController.js" />
-        <option value="$PROJECT_DIR$/app/controller/work/appflow/RejectController.js" />
-        <option value="$PROJECT_DIR$/app/controller/work/pub/OperatorController.js" />
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/controller/work/appflow/OperatorController.js" />
-        <option value="$PROJECT_DIR$/extra/ux/NG.js" />
-        <option value="$PROJECT_DIR$/app/controller/work/appflow/AppFlowController.js" />
-        <option value="$PROJECT_DIR$/extra/config.js" />
-        <option value="$PROJECT_DIR$/extra/Launch.js" />
+        <option value="$PROJECT_DIR$/loodword.html" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -263,7 +190,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -275,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -290,7 +216,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemId" value="NewWeChatCompanyJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,21 +226,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="touch" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemId" value="NewWeChatCompanyJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -328,25 +240,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="extra" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ux" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemId" value="NewWeChatCompanyJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -364,7 +258,121 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="NewWeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewWeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewWeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewWeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appflow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewWeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="store" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewWeChatCompanyJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -378,7 +386,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemId" value="NewWeChatCompanyJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -400,7 +408,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WeChatCompanyJS" />
+              <option name="myItemId" value="NewWeChatCompanyJS" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -422,303 +430,712 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\lizc\Documents\Visual Studio 2015\Projects\WeChatCompanyServe\WeChatCompanyServe\Resource\WeChatCompanyJS\app\controller\work\pub" />
-      <recent name="C:\Users\lizc\Documents\Visual Studio 2015\Projects\WeChatCompanyServe\WeChatCompanyServe\Resource\WeChatCompanyJS\resources\css" />
-      <recent name="C:\Users\lizc\Documents\Visual Studio 2015\Projects\WeChatCompanyServe\WeChatCompanyServe\Resource\WeChatCompanyJS\extra\css" />
-      <recent name="C:\Users\lizc\Documents\Visual Studio 2015\Projects\WeChatCompanyServe\WeChatCompanyServe\Resource\WeChatCompanyJS\app\store\work\pub" />
-      <recent name="C:\Users\lizc\Documents\Visual Studio 2015\Projects\WeChatCompanyServe\WeChatCompanyServe\Resource\WeChatCompanyJS\resources\images" />
+      <recent name="C:\Users\lzc\Desktop\work\微信企业号\WeChatProject\WeChatCompanyServe\Resource\NewWeChatCompanyJS\extra" />
+      <recent name="C:\Users\lzc\Desktop\work\微信企业号\WeChatProject\WeChatCompanyServe\Resource\NewWeChatCompanyJS\resources\images" />
+      <recent name="C:\Users\lzc\Desktop\work\微信企业号\WeChatProject\WeChatCompanyServe\Resource\NewWeChatCompanyJS" />
+      <recent name="C:\Users\lzc\Desktop\work\微信企业号\WeChatProject\WeChatCompanyServe\Resource\NewWeChatCompanyJS\app\store\work" />
+      <recent name="C:\Users\lzc\Desktop\work\微信企业号\WeChatProject\WeChatCompanyServe\Resource\NewWeChatCompanyJS\app\controller\work" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <method />
+    </configuration>
+    <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
+      <setting name="configLocationType" value="CONFIG_FILE" />
+      <setting name="settingsFile" value="" />
+      <setting name="serverType" value="INTERNAL" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
       <method />
     </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b359061c-e891-48fa-be1f-ddce97f8df06" name="Default" comment="" />
       <created>1474169545447</created>
+      <option name="number" value="Default" />
       <updated>1474169545447</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <frame x="-8" y="-8" width="1386" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1382353" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24982357" sideWeight="0.6755245" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3708029" sideWeight="0.6755245" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32447553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
-    <option name="CHECK_NEW_TODO" value="true" />
     <option name="myTodoPanelSettings">
-      <value>
-        <are-packages-shown value="false" />
-        <are-modules-shown value="false" />
-        <flatten-packages value="false" />
-        <is-autoscroll-to-source value="false" />
-      </value>
+      <TodoPanelSettings />
     </option>
-    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
-    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
-    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
-    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
-    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
-    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
-    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
-    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
-    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
-    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
-    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
-    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
-    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
-    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
-    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
-    <option name="ACTIVE_VCS_NAME" />
-    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
-    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
-    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
-    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="4" />
     </breakpoint-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/view/work/appflow/AppFlowListView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="31" selection-start="3932" selection-end="3948" vertical-scroll-proportion="-3.44" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowDetailController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2576" column="37" selection-start="114436" selection-end="114436" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowSignController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="35" selection-start="3245" selection-end="3245" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/work/pub/OperatorController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="31" selection-start="2902" selection-end="2902" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/OperatorController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="48" selection-start="6151" selection-end="6151" vertical-scroll-proportion="0.44078946" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/RejectController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="37" selection-start="7469" selection-end="7469" vertical-scroll-proportion="0.33182845">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="19" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/main/LocalStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="29" selection-start="136" selection-end="136" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra/ux/NGComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="287" column="13" selection-start="10531" selection-end="10531" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1477964582001" expanded="false" signature="35614:35646" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="35675:35707" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="44946:44975" placeholder="..." />
-            <marker date="1477964582001" expanded="true" signature="44976:45322" placeholder="..." />
-            <marker date="1477964582001" expanded="true" signature="45038:45316" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45081:45191" placeholder="..." />
-            <marker date="1477964582001" expanded="true" signature="45192:45316" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45232:45288" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45335:45433" placeholder="..." />
-            <marker date="1477964582001" expanded="true" signature="45434:45787" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45447:45520" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45566:45737" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45815:45879" placeholder="..." />
-            <marker date="1477964582001" expanded="true" signature="45880:46456" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="45920:45975" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="46003:46113" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="46217:46274" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="46393:46448" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="58886:59027" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="59068:59212" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="77751:77789" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="94110:94182" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="94592:94664" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="112245:112351" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="119926:120017" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="120060:120081" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="122693:122729" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="124390:124462" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="124492:124517" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="124701:124874" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="137288:137429" placeholder="..." />
-            <marker date="1477964582001" expanded="false" signature="137470:137614" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/model/main/ProductLoginModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.050691243" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/store/main/ProductLoginStore.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="42" selection-start="200" selection-end="200" vertical-scroll-proportion="0.41666666" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extra/ux/NG.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1917" column="55" selection-start="89350" selection-end="89367" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1477983655170" expanded="false" signature="17171:17244" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="17258:17398" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="26041:26109" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="26172:26314" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="26492:26576" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="26662:26761" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="26797:26871" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="43066:43073" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="43429:43485" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="43553:43566" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="50387:50534" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="51103:51148" placeholder="..." />
-            <marker date="1477983655170" expanded="false" signature="61419:61425" placeholder="..." />
-            <marker date="1477983655170" expanded="true" signature="62429:62459" placeholder="{...}" />
-            <marker date="1477983655170" expanded="true" signature="63003:63018" placeholder="{...}" />
-            <marker date="1477983655170" expanded="true" signature="63105:63137" placeholder="{...}" />
-            <marker date="1477983655170" expanded="true" signature="64370:64419" placeholder="{...}" />
-            <marker date="1477983655170" expanded="true" signature="64506:64558" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/extra/Launch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="62" selection-start="899" selection-end="899" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="6" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="228" max-vertical-offset="779">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="411" column="46" selection-start="16859" selection-end="16859" vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="8170">
+          <caret line="9" column="58" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
           <folding>
-            <marker date="1477986826321" expanded="false" signature="316:348" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="430:479" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="550:563" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="610:620" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="635:708" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="818:831" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="865:941" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1027:1066" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1119:1131" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1178:1240" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1331:1380" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1435:1448" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1495:1505" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1555:1628" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="1741:1754" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="13861:13924" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="14000:14044" placeholder="..." />
-            <marker date="1477986826321" expanded="false" signature="16259:16295" placeholder="..." />
+            <element signature="e#6636#6982#0" expanded="false" />
+            <element signature="e#12829#14173#0" expanded="false" />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1056" max-vertical-offset="4028">
+          <caret line="70" column="69" selection-start-line="70" selection-start-column="69" selection-end-line="70" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/netcall/NetCallView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3591">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/netcall/NetCallController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="95" max-vertical-offset="12312">
+          <caret line="5" column="59" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="59" />
+          <folding>
+            <marker date="1493793824414" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493793824414" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493793824414" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/work/netcall/NetCallListStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="1064">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/netcall/NetCallDetailController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19304" max-vertical-offset="19817">
+          <caret line="1034" column="43" selection-start-line="1034" selection-start-column="43" selection-end-line="1034" selection-end-column="43" />
+          <folding>
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/netcall/NetCallAddView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="4997">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <marker date="1493707771317" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/netcall/NetCallDetailView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="3876">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/appflow/AppFlowListView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="2793">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <marker date="1493262728069" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2641">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/ux/NGComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5453" max-vertical-offset="78603">
+          <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/ux/NG.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="36423" max-vertical-offset="47253">
+          <caret line="1917" column="55" selection-start-line="1917" selection-start-column="55" selection-end-line="1917" selection-end-column="55" />
+          <folding>
+            <element signature="e#102842#107190#0" expanded="false" />
+            <element signature="e#110447#112453#0" expanded="false" />
+            <element signature="e#112499#113457#0" expanded="false" />
+            <element signature="e#113598#114170#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="7809" max-vertical-offset="8455">
+          <caret line="411" column="46" selection-start-line="411" selection-start-column="46" selection-end-line="411" selection-end-column="46" />
+          <folding>
+            <element signature="e#6636#6982#0" expanded="false" />
+            <element signature="e#12829#14173#0" expanded="false" />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/Launch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="361" max-vertical-offset="684">
+          <caret line="20" column="62" selection-start-line="20" selection-start-column="62" selection-end-line="20" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="3800">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/main/LocalStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="380">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="209" max-vertical-offset="437">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/pub/OperatorController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="71" column="31" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/OperatorController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44078946" vertical-offset="0" max-vertical-offset="0">
+          <caret line="164" column="48" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/RejectController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33182845" vertical-offset="0" max-vertical-offset="0">
+          <caret line="195" column="37" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/main/LocalStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23348695" vertical-offset="0" max-vertical-offset="651">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/ux/NGComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="5453" max-vertical-offset="78603">
+          <caret line="287" column="13" selection-start-line="287" selection-start-column="13" selection-end-line="287" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/model/main/ProductLoginModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.050691243" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/main/ProductLoginStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41666666" vertical-offset="0" max-vertical-offset="0">
+          <caret line="10" column="42" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="21.714285" vertical-offset="1710" max-vertical-offset="3534">
+          <caret line="58" column="6" selection-start-line="58" selection-start-column="6" selection-end-line="58" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/ux/NGMap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="3895">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/appflow/AppFlowListView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2793">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="51" />
+          <folding>
+            <marker date="1493262728069" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/netcall/NetCallAddView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="4997">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <marker date="1493707771317" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/netcall/NetCallDetailController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="19304" max-vertical-offset="19817">
+          <caret line="1034" column="43" selection-start-line="1034" selection-start-column="43" selection-end-line="1034" selection-end-column="43" />
+          <folding>
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771254" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/work/netcall/NetCallListStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="1064">
+          <caret line="17" column="92" selection-start-line="17" selection-start-column="92" selection-end-line="17" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/Launch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="57" max-vertical-offset="779">
+          <caret line="15" column="69" selection-start-line="15" selection-start-column="69" selection-end-line="15" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/netcall/NetCallView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2953" max-vertical-offset="3591">
+          <caret line="173" column="30" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="30" />
+          <folding>
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707834285" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/netcall/NetCallController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-22.8" vertical-offset="1995" max-vertical-offset="12350">
+          <caret line="141" column="69" selection-start-line="141" selection-start-column="69" selection-end-line="141" selection-end-column="69" />
+          <folding>
+            <marker date="1493793824414" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493793824414" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493793824414" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0666666" vertical-offset="6881" max-vertical-offset="7638">
+          <caret line="405" column="13" selection-start-line="405" selection-start-column="13" selection-end-line="405" selection-end-column="13" />
+          <folding>
+            <element signature="e#6636#6982#0" expanded="false" />
+            <element signature="e#12829#14173#0" expanded="false" />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707152788" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowSignController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.977612" vertical-offset="0" max-vertical-offset="3762">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/netcall/NetCallDetailView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5317164" vertical-offset="1653" max-vertical-offset="3876">
+          <caret line="102" column="37" selection-start-line="102" selection-start-column="37" selection-end-line="102" selection-end-column="37" />
+          <folding>
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493707771303" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/extra/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="41" selection-start="1459" selection-end="1469" vertical-scroll-proportion="0.16715117">
+        <state vertical-scroll-proportion="0.0" vertical-offset="768" max-vertical-offset="2660">
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/appflow/AppFlowDetailView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="2242">
+          <caret line="76" column="46" selection-start-line="76" selection-start-column="46" selection-end-line="76" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/appflow/TaskPanelView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50373137" vertical-offset="1345" max-vertical-offset="3439">
+          <caret line="85" column="61" selection-start-line="85" selection-start-column="61" selection-end-line="85" selection-end-column="61" />
+          <folding>
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1493867242546" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/store/work/appflow/StampListStore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4845173" vertical-offset="0" max-vertical-offset="589">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/view/work/appflow/AttachPanelView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="121" max-vertical-offset="665">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <marker date="1493869875723" expanded="true" signature="721:748" placeholder="..." />
+            <marker date="1493869875723" expanded="true" signature="801:820" placeholder="..." />
+            <marker date="1493869875723" expanded="true" signature="834:972" placeholder="..." />
+            <marker date="1493869875723" expanded="true" signature="1016:1112" placeholder="..." />
+            <marker date="1493869875723" expanded="true" signature="1218:1233" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.107143" vertical-offset="0" max-vertical-offset="361">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/jQuery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="167618">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1341" max-vertical-offset="4028">
+          <caret line="84" column="21" selection-start-line="84" selection-start-column="21" selection-end-line="84" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/extra/ux/NG.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="8695" max-vertical-offset="44346">
+          <caret line="452" column="8" selection-start-line="452" selection-start-column="8" selection-end-line="452" selection-end-column="8" />
+          <folding>
+            <element signature="e#102842#107190#0" expanded="false" />
+            <element signature="e#110447#112453#0" expanded="false" />
+            <element signature="e#112499#113457#0" expanded="false" />
+            <element signature="e#113598#114170#0" expanded="false" />
+            <marker date="1493866848563" expanded="true" signature="17171:17244" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="17258:17398" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="26172:26314" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="26492:26576" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="26662:26761" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="26797:26871" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="43429:43485" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="50387:50534" placeholder="..." />
+            <marker date="1493866848563" expanded="true" signature="51103:51148" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loodword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.142858" vertical-offset="0" max-vertical-offset="380">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controller/work/appflow/AppFlowDetailController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4785992" vertical-offset="36499" max-vertical-offset="44669">
+          <caret line="2540" column="56" selection-start-line="2540" selection-start-column="56" selection-end-line="2540" selection-end-column="56" />
+          <folding>
+            <element signature="e#16460#24940#0" expanded="false" />
+            <element signature="e#25013#27740#0" expanded="false" />
+            <element signature="e#27799#28964#0" expanded="false" />
+            <element signature="e#29032#30061#0" expanded="false" />
+            <element signature="e#30159#35951#0" expanded="false" />
+            <element signature="e#36019#43209#0" expanded="false" />
+            <element signature="e#46232#46995#0" expanded="false" />
+            <element signature="e#47078#47728#0" expanded="false" />
+            <marker date="1493871981111" expanded="true" signature="17131:17166" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="17242:17333" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="21592:21627" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="21707:21798" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="22312:22384" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="22426:22538" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="22611:22833" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="30786:30860" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="49847:50049" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="57777:57789" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="57824:57869" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="76331:76366" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="76439:76592" placeholder="..." />
+            <marker date="1493871981111" expanded="true" signature="84831:84969" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

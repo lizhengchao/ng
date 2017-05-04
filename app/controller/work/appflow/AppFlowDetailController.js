@@ -2403,8 +2403,8 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
     getAttachDownloadUrl: function (config) {
         var me = this;
         NG.setWaiting(true, "正在获取附件地址..");
-        Ext.Ajax.request({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=get&requestAds=" +NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/GetArchiveAttachment" + config.fileUrl,
+        NG.WeChatRequest({
+            url: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/GetArchiveAttachment" + config.fileUrl,
             method: 'GET',
             success: function(response, opts) {
                 var resp = NG.decodeJson(response.responseText);
@@ -2530,13 +2530,16 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                 return;
             }
             NG.setWaiting(true, "正在获取附件地址");
-            Ext.Ajax.request({
-                url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get",
+            NG.WeChatRequest({
+                url: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get",
                 method: 'POST',
                 params: parms,
                 success: function (response, opts) {
                     var resp = Ext.JSON.decode(response.responseText);
+
                     NG.setWaiting(false);
+                    window.open($(target).find('a')[0]);
+                    return;
                     if (resp.downloadurl) {
                         target.downloadurl = resp.downloadurl;
                         me.downloadurls.push({

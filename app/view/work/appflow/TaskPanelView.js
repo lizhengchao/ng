@@ -83,6 +83,7 @@ Ext.define('MyApp.view.work.appflow.TaskPanelView', {
                                                 xtype: 'image',
                                                 name: 'voiceImage',
                                                 width: 36,
+                                                hidden: true,
                                                 src: 'resources/images/newIcon/u167.png',
                                                 style:'-webkit-box-flex: 1;background-position: center;background-size: contain;'
                                             },
