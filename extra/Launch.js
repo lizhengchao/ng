@@ -3,12 +3,11 @@
 (function () {
     var userName = getQueryString("userId");
     if (userName) {
-        WeChat_GLOBAL_CONFIG.userName = userName;
+        GLOBAL_CONFIG.userName = userName;
     }
     var enterprise = getQueryString("NGCorpId");
     if(enterprise) {
         GLOBAL_CONFIG.enterprise = enterprise;
-        WeChat_GLOBAL_CONFIG.NGCorpID = enterprise;
     }
     var host = getQueryString("host");
     if(host){
@@ -22,7 +21,7 @@
     }
     var requestType = getQueryString('requestType');
     if(requestType){
-        WeChat_GLOBAL_CONFIG.requestType = requestType;
+        GLOBAL_CONFIG.requestType = requestType;
     }
 
     function getQueryString(name) {

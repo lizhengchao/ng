@@ -88,7 +88,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
 
         var store = list.getStore();
         store.removeAll();
-        store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+        store.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
         store.setParams({
             requestType: 'get',
             requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/TaskInstanceList/Get",
@@ -407,7 +407,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
         var me = this;
         Ext.apply(parms, {requestType: 'post', requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get"})
         Ext.Ajax.request({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+            url: GLOBAL_CONFIG.weChatServeAdr,
             method: 'POST',
             params: parms,
             success: function (response, opts) {

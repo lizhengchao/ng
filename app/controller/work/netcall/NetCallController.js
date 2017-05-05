@@ -143,7 +143,7 @@ Ext.define('MyApp.controller.work.netcall.NetCallController', {
             }
             list.setStore('NetCallListStore');
             proxy = store.getProxy();
-            proxy.setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+            proxy.setUrl(GLOBAL_CONFIG.weChatServeAdr);
             proxy.setExtraParams({
                 requestType: 'get',
                 requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/oa/NFCApp/getList",
@@ -471,7 +471,7 @@ Ext.define('MyApp.controller.work.netcall.NetCallController', {
      */
     NFCApi: function (config) {
         Ext.applyIf(config, {
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+            url: GLOBAL_CONFIG.weChatServeAdr,
             method: 'POST', //默认为POST，可以为空
             autoWaiting: false, // 自动添加和取消loading样式，可以为字符串
             params: {},  //参数

@@ -45,18 +45,15 @@ var GLOBAL_CONFIG = {
 
     enterprise: '710332',
 
-    netcallAdr: 'http://218.108.50.4:9090'
-};
+    netcallAdr: 'http://218.108.50.4:9090',
 
-//微信企业号特有的全局配置，在Launch.js中初始化
-var WeChat_GLOBAL_CONFIG = {
-//    NGCorpID: ',
+    requestType: 'af', //请求类型
+
     //weChatServeAdr: "/Redirect/jsonResult", //微信服务地址
     //weChatServeAdr: 'http://218.108.53.100:81/WeChatCompanyServe/Redirect/jsonResult', //微信服务地址
     weChatServeAdr: 'http://101.37.31.231:81/Redirect/jsonResult', //微信服务地址
-    userName: '',
-    NGCorpID: '',
-    requestType: ''
+
+    userName: ''
 };
 
 /*

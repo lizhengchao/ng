@@ -347,7 +347,7 @@ Ext.define('MyApp.controller.work.appflow.RejectController', {
             cstore = Ext.getStore('SysUserStore');
             cstore.getProxy().setExtraParams({'filter': ""});
 //            cstore.getProxy().setUrl(GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get');
-            cstore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+            cstore.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
             cstore.setParams({
                 requestType: 'get',
                 requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
@@ -483,7 +483,7 @@ Ext.define('MyApp.controller.work.appflow.RejectController', {
 //                                        cstore.getProxy().setUrl(GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get');
 //                                        cstore.setParams(parms);
                                         var cstore = Ext.getStore('NodeUserStore');
-                                        cstore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+                                        cstore.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
                                         cstore.setParams({
                                             requestType: 'get',
                                             requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',

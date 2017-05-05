@@ -50,7 +50,7 @@ Ext.define('MyApp.controller.work.pub.OperatorController', {
         this.isEmp = view.getIsEmp();
         if(this.isEmp) {
             var sqlstr = "select cno code,cname name from hr_epm_main where empstatus in(select ccode from hr_epm_status_property where isstatus in('01','02'))";
-            store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+            store.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
             store.setParams({
                 requestType: 'get',
                 requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
@@ -59,7 +59,7 @@ Ext.define('MyApp.controller.work.pub.OperatorController', {
                 logid: NG.getProductLoginInfo().loginId
             });
         } else{
-            store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+            store.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
             store.setParams({
                 requestType: 'get',
                 requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',

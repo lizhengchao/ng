@@ -58,7 +58,7 @@ Ext.application({
         me.addLocalStorage();
 
         NG.productLogin(function () {
-            switch (WeChat_GLOBAL_CONFIG.requestType) { //根据不同的请求类型打开不同的页面
+            switch (GLOBAL_CONFIG.requestType) { //根据不同的请求类型打开不同的页面
                 case 'af':
                     NG.initControllers(this, function () {
                         var appFlowList = Ext.create('MyApp.view.work.appflow.AppFlowListView');
@@ -87,7 +87,7 @@ Ext.application({
 
         localData = {
             enterprise: GLOBAL_CONFIG.enterprise,
-            userName: WeChat_GLOBAL_CONFIG.userName,
+            userName: GLOBAL_CONFIG.userName,
 //                userPassWord: passwordValue,
             loginDate: new Date(),
 //                isAppDemo: NG.isAppDemo,
@@ -103,7 +103,7 @@ Ext.application({
         userInfo = Ext.create('MyApp.model.main.LocalModel', Ext.apply({ id: 'userInfo' }, localData));
         userInfo.save();
         LocalStore.add(userInfo);
-        NG.productLoginID = WeChat_GLOBAL_CONFIG.userName;
+        NG.productLoginID = GLOBAL_CONFIG.userName;
     },
 
     onUpdated: function() {

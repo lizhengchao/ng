@@ -1840,7 +1840,7 @@
                      /*   logid = '150157';
                         NG.productLoginID = logid;*/
                         Ext.Ajax.request({
-                            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+                            url: GLOBAL_CONFIG.weChatServeAdr,
                             method: 'GET',
                             params: {
                                 requestType: 'get',

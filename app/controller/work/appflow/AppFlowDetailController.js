@@ -184,7 +184,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                                         }
                                     }, function () {
                                         Ext.Ajax.request({
-                                            url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=get&requestAds=" + NG.getProductLoginInfo().productAdr + '/rest/api/workflow/TaskInstance/Get?method=GetAudioRemark&audioremark=' + audio,
+                                            url: GLOBAL_CONFIG.weChatServeAdr + "?requestType=get&requestAds=" + NG.getProductLoginInfo().productAdr + '/rest/api/workflow/TaskInstance/Get?method=GetAudioRemark&audioremark=' + audio,
                                             method: 'GET',
                                             success: function (response, opts) {
                                                 var resp = Ext.JSON.decode(response.responseText);
@@ -386,7 +386,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                         }
                         NG.setWaiting(true, "正在获取附件地址");
                         Ext.Ajax.request({
-                            url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" +NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get",
+                            url: GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" +NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get",
                             method: 'POST',
                             params: parms,
                             success: function (response, opts) {
@@ -940,7 +940,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
 
         NG.setWaiting(true, "正在获取" + field.getLabel());
         Ext.Ajax.request({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/oa/ApproveContent/1",
+            url: GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/oa/ApproveContent/1",
             method: 'POST',
             params: parms,
             success: function (response, opts) {
@@ -1405,7 +1405,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
                                                     operatorSelectView = me.getOperatorSelectView(),
                                                     nodeUserStore = Ext.getStore('NodeUserStore');
 //                                                nodeUserStore.getProxy().setUrl(GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get');
-                                                nodeUserStore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+                                                nodeUserStore.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
                                                 nodeUserStore.setParams({
                                                     requestType: 'get',
                                                     requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get'
@@ -1600,7 +1600,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
             me.showWaiting(true, panel.element);
             if(me.getAppFlowDetailView().config.appFlowData.bizData && appFlowInfo.biztype == "RW_ReportApply") { // 报表审批
                 Ext.Ajax.request({
-                    url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/report/RptList/Get",
+                    url: GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/report/RptList/Get",
                     method: 'POST',
                     params: {
                         CallFunc: 'GetReportInfo',
@@ -2407,7 +2407,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
         var me = this;
         NG.setWaiting(true, "正在获取附件地址..");
         Ext.Ajax.request({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+            url: GLOBAL_CONFIG.weChatServeAdr,
             params: {
                 requestType: 'get',
                 requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/GetArchiveAttachment" + config.fileUrl
@@ -2540,7 +2540,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
             NG.setWaiting(true, "正在获取附件地址");
             Ext.apply(parms, {requestType: 'post', requestAds: NG.getProductLoginInfo().productAdr + "/rest/api/oa/ArchiveAttach/Get"})
             Ext.Ajax.request({
-                url: WeChat_GLOBAL_CONFIG.weChatServeAdr,
+                url: GLOBAL_CONFIG.weChatServeAdr,
                 method: 'POST',
                 params: parms,
                 success: function (response, opts) {
@@ -2585,7 +2585,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowDetailController', {
     AFRequst: function (funcname, parms, callback) {
         var me = this;
         Ext.Ajax.request({
-            url: WeChat_GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get",
+            url: GLOBAL_CONFIG.weChatServeAdr + "?requestType=post&requestAds=" + NG.getProductLoginInfo().productAdr + "/rest/api/workflow/" + funcname + "/Get",
             method: 'POST',
             params: parms,
             success: function (response, opts) {

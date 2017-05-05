@@ -81,7 +81,7 @@ Ext.define('MyApp.controller.work.appflow.AppFlowSignController', {
                 store = Ext.create('MyApp.store.work.appflow.SysUserStore');
             }
             store.getProxy().setExtraParams({'filter': ""});
-            store.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+            store.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
             store.setParams({
                 requestType: 'get',
                 requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',

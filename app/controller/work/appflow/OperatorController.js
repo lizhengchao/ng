@@ -159,7 +159,7 @@ Ext.define('MyApp.controller.work.appflow.OperatorController', {
         if (btnname == 'operatorSelectSysUserBtn') {
             userStore.getProxy().setExtraParams({'filter': ""});
 //            userStore.getProxy().setUrl(GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get');
-            userStore.getProxy().setUrl(WeChat_GLOBAL_CONFIG.weChatServeAdr);
+            userStore.getProxy().setUrl(GLOBAL_CONFIG.weChatServeAdr);
             userStore.setParams({
                 requestType: 'get',
                 requestAds: GLOBAL_CONFIG.productAdr + '/rest/api/workflow/TaskInstance/Get',
