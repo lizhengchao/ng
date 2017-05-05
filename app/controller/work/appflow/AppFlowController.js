@@ -7,13 +7,14 @@
  */
 Ext.define('MyApp.controller.work.appflow.AppFlowController', {
     extend: 'Ext.app.Controller',
-    requires: ['MyApp.view.work.appflow.AppFlowListView'],
+    requires: ['MyApp.view.work.appflow.AppFlowListView', 'MyApp.controller.contact.PublicContactDetailController'],
     config: {
         tpl1: '<div class="nowrap font15" style="margin-bottom: 8px; color: #000;">{taskdesc}' + '</div>' +
             '<table width="100%" class="font13" style="color: #AAA9A9;table-layout: fixed; height: 16px;" border=0><tr valign="bottom">' + '<td class="nowrap typemark" style="width: 100px;">{bizname}</td>' + '<td align="center" style="width:100%"><div  style="text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color: #3993db;"><label class="sendNode" imgtype="nextNode">{initiator_name}</label></div></td>' + '<td align="right" style="width: 100px;"><div class="nowrap time" style="display: inline-block;vertical-align: bottom; max-width: 100px; color: #000;">{sduetime}</div></td>' + '</tr></table>',
         tpl2: '<table width="100%" style="table-layout: fixed;margin-bottom: 8px;" border=0><tr>' + '<td class="nowrap font15" style="width: 100%;">{keyword}</td>' + '<td class="nowrap" style="width: 74px;font-size: 0.8em;color: #AAA9A9;text-align: right;">{actdt}</td>' + '</tr></table>' +
             '<table width="100%" class="font13" style="color: #AAA9A9;table-layout: fixed; height: 16px;" border=0><tr>' + '<td class="nowrap typemark" style="width: 100px;">{bizname}</td>' + '<td align="center" style="width:100%"><tpl if="curusername!=&quot;&quot;"><div style="text-overflow:ellipsis;white-space:nowrap;overflow:hidden;color: #3993db;"><label class="nextNode" imgtype="nextNode">{curusername}</label></div></tpl></td>' + '<td align="right" style="width: 100px;"><tpl if="pista==&quot;运行中&quot;||pista==&quot;待运行&quot;"><div class="nowrap status run"</tpl><tpl if="pista==&quot;终止&quot;"><div class="nowrap status stop"</tpl><tpl if="pista==&quot;结束&quot;"><div class="nowrap status over"</tpl> style="display: inline-block;vertical-align: bottom; max-width: 100px; color: #000;">{pista}</div></td>' + '</tr></table>',
 
+        controllers: ['contact.PublicContactDetailController'],
         views: ['work.appflow.AppFlowListView', 'work.pub.OperatorView', 'work.appflow.AppFlowDetailView' ],
         stores: [ 'work.appflow.AppFlowListStore',  'work.pub.OperatorPubStore'],
         models: [],
@@ -315,35 +316,35 @@ Ext.define('MyApp.controller.work.appflow.AppFlowController', {
             pageType,
             tt = e.target.getAttribute("imgtype"),
             logid = NG.getProductLoginInfo().productLoginID;
-        if (tt) {
-            var hum = record.get('initiator') || record.get('curusercode'),
-                humN = record.get('initiator_name') || record.get('curusername'),
-                allh = hum.split(","),
-                allhN = humN.split(",");
-            if (allh.length > 0) {
-                if (allh.length == 1) {
-                    NG.openPersonInfo(me, allh[0], allhN[0]);
-                }
-                else {
-                    var datas = [];
-                    for (var i = 0; i < allh.length; i++) {
-                        var adata = {};
-                        adata.code = allh[i];
-                        adata.name = allhN[i];
-                        datas.push(adata);
-                    }
-                    NG.showWindowList({
-                        title: '待办人员',
-                        itemTpl: '<div class ="x-button" style="float:left;width: 36px;height: 24px;border-width: 0;padding: 0;"><div class="x-button-icon contact"></div></div><div class="nowrap" style="width: 100px;height: 24px;line-height: 24px;">{name}</div>',
-                        data: datas,
-                        callback: function (record) {
-                            NG.openPersonInfo(me, record.code, record.name);
-                        }
-                    });
-                }
-                return false;
-            }
-        }
+        //if (tt) { //由于没有netcall连接，无法支持获取个人信息
+        //    var hum = record.get('initiator') || record.get('curusercode'),
+        //        humN = record.get('initiator_name') || record.get('curusername'),
+        //        allh = hum.split(","),
+        //        allhN = humN.split(",");
+        //    if (allh.length > 0) {
+        //        if (allh.length == 1) {
+        //            NG.openPersonInfo(me, allh[0], allhN[0]);
+        //        }
+        //        else {
+        //            var datas = [];
+        //            for (var i = 0; i < allh.length; i++) {
+        //                var adata = {};
+        //                adata.code = allh[i];
+        //                adata.name = allhN[i];
+        //                datas.push(adata);
+        //            }
+        //            NG.showWindowList({
+        //                title: '待办人员',
+        //                itemTpl: '<div class ="x-button" style="float:left;width: 36px;height: 24px;border-width: 0;padding: 0;"><div class="x-button-icon contact"></div></div><div class="nowrap" style="width: 100px;height: 24px;line-height: 24px;">{name}</div>',
+        //                data: datas,
+        //                callback: function (record) {
+        //                    NG.openPersonInfo(me, record.code, record.name);
+        //                }
+        //            });
+        //        }
+        //        return false;
+        //    }
+        //}
         if (me.getTypeviewer().getText() == "待办任务") {
             parms = {
                 method: 'GetTaskInstanceInfo',

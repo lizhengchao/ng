@@ -1675,7 +1675,15 @@
          * isEmp: 是否是员工
          */
         openPersonInfo: function (controller, personId, personName, ptype, isEmp) {
-            controller.getApplication().getController("contact.PublicContactDetailController").loadPersonInfo(personId, personName, ptype, isEmp);
+            var contactDetailController = controller.getApplication().getController("contact.PublicContactDetailController");
+            if(contactDetailController) {
+                contactDetailController.loadPersonInfo(personId, personName, ptype, isEmp);
+            } else {
+                NG.initControllers(controller, function(){
+                    contactDetailController = controller.getApplication().getController("contact.PublicContactDetailController");
+                    contactDetailController.loadPersonInfo(personId, personName, ptype, isEmp);
+                }, 'contact.PublicContactDetailController');
+            }
         },
 
         /*
